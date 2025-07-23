@@ -15,15 +15,43 @@ def get_image_download_link(img, filename, text):
 
 
 # Set title.
-st.title("Artistic Image Filters")
-st.write("""This is a simple demo of two or three newish functions wee lil' Baba has been able to pick up in 
-the last couple weeks.    The big pieces include usinging 'Python with certain helper libraries.   
-These would include 1) various ways to manipulate 
+st.title("""Let's play with Photoshop version minus 11, also known as:  Let's play with Linear Algebra under the hood.
+Code n' stuff freely 'borrowed' and tons of help from good ol' CHATgpt too""")
+st.write("""==>This is a simple demo of two or three newish functions wee lil' Baba has been able to pick up in 
+the last couple weeks.    The big pieces include using the Python programming language with certain helper libraries.
+
+""")
+st.write("""!!!!Up to you...skip the explanation and try right away if you want. !!!!   """)   
+st.write("""     """)   
+st.write("""The main operational pieces include 1) various ways to manipulate 
 images to get all kinds of effects, and 2) a method ... quite notable these days... to 'publish the program onto a 
 cloud server which can then become a web server.    The somewhat extensive program's functions then are run on the cloud
 server.   And my own 'widdle RPi' is used therefore 'only' as a local, home development machine.   More later.    
-Another web page, located at babaaifaceID.streamlit.app shows some quite different functinoality.
+Another web page, located at babaaifaceID.streamlit.app shows some quite different functinoality.   """)
+
+st.write("""[Click here to visit babaaifaceID(https://babaaifaceID.streamlit.app)""")                       
+
+
+st.write("""    """)
+st.write(""" ==>Directions for use:   First add or drop a file in the space indicated on this page.   It should then
+be displayed.    Then you can see what happens when different effects/operations happen to 'magically' affect how the 
+image looks.   These are done by clicking on any desired effect as shown in examples under the image, then clicking on
+the tiny square at the right top corner of the sample effect image.   After a second or two, and maybe clicking on
+some blank space.....your own image will be processed in the way the sample image chosen had been processed.   Play with
+the slider thing which pops up only if you pick an applicable effec.  No guarantees on that.  In fact...no guarantees at all!
+
+Select a filter works best though.   Unhuman factors were used to put this thing together...We are 'just playing' 
+at this after all.   Ha, ha, when in doubt, poke around!   Just like the  real apps.
+
+
 """)
+
+st.write("""   """)
+st.write("""NO, Virginia, this isn't magic.   Magic will be summoned in the other website mentioned above.   This is
+al done via mechanisms really well understood by even half mortals such as Ben, with a bit of study.  In other words,
+no AI per se.   Maybe 'smart programs' but....no AI.    High level explanations will come one fine day in an email to
+the unlucky few who get these, like them or not, read them or not.   """)
+
 
 # Upload image.
 uploaded_file = st.file_uploader("Choose an image file:", type=["png", "jpg"])
